@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d6efd"/><stop offset="1" stop-color="#1ba19b"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#g)"/><text x="50%" y="56%" text-anchor="middle" font-size="25" font-family="Arial" fill="#fff">QR</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="QRQuick favicon">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="22" y1="18" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <g fill="none" stroke="#e2e8f0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 24V14h10"/>
+    <path d="M50 24V14H40"/>
+    <path d="M14 40v10h10"/>
+  </g>
+  <g fill="#ffffff">
+    <rect x="16" y="16" width="10" height="10" rx="2.5"/>
+    <rect x="38" y="16" width="10" height="10" rx="2.5"/>
+    <rect x="16" y="38" width="10" height="10" rx="2.5"/>
+    <rect x="29" y="18" width="4" height="4" rx="1"/>
+    <rect x="29" y="25" width="4" height="4" rx="1"/>
+    <rect x="35" y="31" width="4" height="4" rx="1"/>
+    <rect x="29" y="37" width="4" height="4" rx="1"/>
+    <rect x="35" y="43" width="4" height="4" rx="1"/>
+    <rect x="42" y="37" width="4" height="4" rx="1"/>
+  </g>
+  <path d="M31 24l-4 9h5l-2 8 9-12h-5l3-5z" fill="url(#spark)"/>
+</svg>
